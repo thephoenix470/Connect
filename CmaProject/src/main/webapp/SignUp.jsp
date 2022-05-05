@@ -59,7 +59,7 @@ a:hover {
 				<i class="bi bi-eye-slash" id="togglePassword" style="margin-right: 20px; margin-left: -40px; cursor: pointer;"></i>
 				<br>
 				<p class="p">Confirm Password:</p>
-				<input class="password" name="cCPass" placeholder="Confirm Password" id="password" required> 
+				<input type="password" class="password" name="cCPass" placeholder="Confirm Password" id="password" required> 
 				<br> 
 				<label class="label" for="city">City:</label> 
 				<select id="city" name="city" required>
@@ -75,7 +75,7 @@ a:hover {
 			<button class="submit" type="Submit">Submit</button>
 			<br>
 			<h4>
-				Already Registered? <a href="Login.jsp">Login</a><br>
+				Already Registered? <a href="/login">Login</a><br>
 				<br>
 				<br>
 				<br>

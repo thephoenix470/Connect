@@ -8,7 +8,7 @@ public class CmaFormController {
 	@RequestMapping("/")
 	public String Home() {
 		System.out.println("Home");
-		return "SignUp.jsp";
+		return "Login.jsp";
 	}
 	@RequestMapping("/signup")
 	public String SignUp() {
@@ -20,5 +20,16 @@ public class CmaFormController {
 	public String Login() {
 		System.out.println("Login");
 		return "Login.jsp";
+	}
+	
+	@RequestMapping("/adminHome")
+	public String Admin() {
+		return "adminMain.jsp";
+	}
+	
+	@RequestMapping("/userHome")
+	public String User() {
+		System.out.println("User");
+		return "userMain.jsp";
 	}
 }

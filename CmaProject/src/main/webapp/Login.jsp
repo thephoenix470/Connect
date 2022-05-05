@@ -28,7 +28,7 @@ div {text-align: center; margin-top:100px; text-size: 80px;}
 	<input type="checkbox" onclick="myFunction()">Show Password
 	<br><br>
 	<input class="submit" type="submit" class="submit" value= "Log In" ><br>
-	Not Registered? <a href ="SignUp.jsp">Sign Up</a><br><br><br><br><br>
+	Not Registered? <a href ="/signup">Sign Up</a><br><br><br><br><br>
 </div>
 
 <div>

@@ -81,7 +81,7 @@ footer {width:100%; align-items: center; text-align: center; padding-top: 20px; 
   </div>
   </div>
   <br>
-  <a href ="Login.jsp">Log Out</a><br>
+  <a href ="/login">Log Out</a><br>
   <div>
 			<footer class="footer">
 				Copyright &copy; 2022 Khalil Website. All Rights Reserved.<br>

@@ -17,17 +17,17 @@ try
         		   if(pass.equals(i.getString("u_pass"))){
         			   if(i.getInt("u_priv")>2){
         				   System.out.println("Hello Admin");
-        				   response.sendRedirect("adminMain.jsp"); 
+        				   response.sendRedirect("/adminHome"); 
         			   }
         			   else{
         				   System.out.println("Hello User");
-        			   response.sendRedirect("userMain.jsp");
+        			   response.sendRedirect("/userHome");
         			   }
         		   }
         	   }
         	else{
         		request.setAttribute("alertMsg", "Username or Password are incorrect");
-        		RequestDispatcher rd=request.getRequestDispatcher("/Login.jsp");  
+        		RequestDispatcher rd=request.getRequestDispatcher("/login");  
         		rd.include(request, response);
         	}}
         

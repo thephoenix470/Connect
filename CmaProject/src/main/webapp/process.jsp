@@ -16,11 +16,14 @@ try
            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3308/corp", "root", "@cc3s5!");
            Statement st=conn.createStatement();
            int i=st.executeUpdate("insert into users(u_fname,u_lname,u_email,u_username,u_pass,u_city,u_priv)values('"+first_name+"','"+last_name+"','"+email+"','"+username+"','"+pass+"','"+city+"','"+priv+"')");
-	        out.println("Successfully Registered!");
+	       System.out.println("Successfully Registered!");
+           out.println("Successfully Registered!");
+	       
         }
         catch(Exception e)
         {
         System.out.print(e);
         e.printStackTrace();
         }
+response.sendRedirect("/login");
  %>

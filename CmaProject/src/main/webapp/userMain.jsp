@@ -17,7 +17,7 @@ div{}
  <div class="div">
 	<h1>Welcome User</h1>
 	<br>
-  	<a href ="Login.jsp">Log Out</a><br>
+  	<a href ="/login">Log Out</a><br>
   	<div>
 		<footer class="footer">
 			Copyright &copy; 2022 Khalil Website. All Rights Reserved.<br>
@@ -26,7 +26,7 @@ div{}
 </div>
 <script>
 	function Logout(){
-		response.sendRedirect("Login.jsp");
+		response.sendRedirect("/login");
 	}
 </script>
 </body>
